@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="utf-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ebay template</title>
+<!-- ======= google fonts ======= -->
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700,800" rel="stylesheet">
+<!-- ======= css ======= -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+<style type="text/css">
+#navbar ul li a,.service-right{font-family:'Open Sans',sans-serif;transition:.5s}.header-wraper,.pro-title{margin:20px 0}.csslider>ul,.csslider>ul>li{box-sizing:border-box;overflow:hidden}.csslider>.navigation label img,img{max-height:100%}.csslider>ul,.csslider>ul>li,.main-div,.product-wraper,.service-box,.support-box{overflow:hidden}.des-title>h2,.pro-title>h2,.product-dec h3,.product-dec h4{font-family:Raleway,sans-serif}#navbar,.logo,.main-footer,.pro-title,.why-us h3{background-color:#004177}body{font-size:14px;font-weight:400;line-height:1.6;font-family:'Open Sans',sans-serif;color:#1a1a1a}a,a:focus,a:hover{outline:0;text-decoration:none}a,h1,h2,h3,h4,h5,h6,li,ul{margin:0;padding:0}img{max-width:100%}.why-us{width:20%;float:left}.why-us h3{color:#fff;font-size:14px;font-weight:600;padding:14px 20px;display:block;text-transform:uppercase}#navbar ul li a,.des-title>h2,.product-dec h3,.service-right{text-transform:capitalize}.why-us i.fa{height:25px;width:25px;line-height:25px;color:#fff;border:1px solid #fff;border-radius:50%;text-align:center;margin-left:10px}.support-box ul li{float:left;width:25%;list-style:none;position:relative;border:1px solid #d1d1d1;padding:10px 0;border-left:0}.support-box ul li:last-child{margin-right:0}.service-box{width:80%;float:left}.service-left{width:20%;float:left;text-align:right}#navbar,.csslider>ul>li,.pro-title{text-align:center}.service-left i{font-size:30px;color:#12d4ef}.service-right{width:80%;font-weight:700;float:right;padding:3px 10px;color:#2d2e2f;font-size:14px}.service-right:hover{color:#2d2e2f}.logo img{width:600px}.copy-right,.satisfacation{padding:30px 0}#navbar{border-bottom:5px solid #004177}#menu-switcher,.csslider>input,.navbar-header>label,.switch{display:none}.menu-container label::before{border-bottom:2px solid #004177;box-shadow:0 5px 0 0 #004177,0 0 0 0 inset,0 -5px 0 0 #004177;content:"";height:0;left:50%;margin-left:-10px;margin-top:-1px;position:absolute;top:50%;width:20px}.switch{width:100%;float:left;height:auto;min-height:45px;position:relative}.menu-container label{background:rgba(0,0,0,0)!important;cursor:pointer;display:none;height:35px;padding:0;position:absolute!important;right:0;top:15px;width:40px;z-index:9999;border:1px solid #004177}#navbar ul li,#navbar ul li a,.csslider>ul>li,.product-dec h3{display:inline-block}.csslider,.csslider>ul,.csslider>ul>li,.mbs,.product-dec ul li{position:relative}#navbar ul{display:inline-flex}#navbar ul li{background-color:#010101}#navbar ul li a{font-size:18px;color:#fff;line-height:25px;font-weight:600;padding:12px 20px;letter-spacing:1px}#navbar ul li a i.fa{margin-right:5px}#navbar ul li a:hover{background-color:#12d4ef;color:#fff}.pro-title{color:#fff;padding:15px 50px}.pro-title>h2{font-size:24px;margin:0;font-weight:700}.csslider>input:nth-of-type(10):checked~ul li:first-of-type{margin-left:-900%}.csslider>input:nth-of-type(9):checked~ul li:first-of-type{margin-left:-800%}.csslider>input:nth-of-type(8):checked~ul li:first-of-type{margin-left:-700%}.csslider>input:nth-of-type(7):checked~ul li:first-of-type{margin-left:-600%}.csslider>input:nth-of-type(6):checked~ul li:first-of-type{margin-left:-500%}.csslider>input:nth-of-type(5):checked~ul li:first-of-type{margin-left:-400%}.csslider>input:nth-of-type(4):checked~ul li:first-of-type{margin-left:-300%}.csslider>input:nth-of-type(3):checked~ul li:first-of-type{margin-left:-200%}.csslider>input:nth-of-type(2):checked~ul li:first-of-type{margin-left:-100%}.csslider>input:first-of-type:checked~ul li:first-of-type{margin-left:0}.csslider>ul{font-size:0;line-height:0;margin:0 auto;padding:0;white-space:nowrap;z-index:1}.csslider>ul>li{font-size:initial;height:100%;line-height:normal;transition:.5s cubic-bezier(.4, 1.3, .65, 1);vertical-align:middle;white-space:normal;width:100%}.csslider>ul>li.scrollable{overflow-y:scroll}.csslider>.navigation{text-align:center;margin-top:15px}.csslider>.navigation label{background:0 0;border-radius:50%;cursor:pointer;display:inline-block;padding:4px;position:relative;width:100px;height:100px;vertical-align:middle}.csslider>.navigation label:hover::after,.csslider>input:first-of-type:checked~.navigation label:first-of-type::after,.csslider>input:nth-of-type(10):checked~.navigation label:nth-of-type(10)::after,.csslider>input:nth-of-type(11):checked~.navigation label:nth-of-type(11)::after,.csslider>input:nth-of-type(2):checked~.navigation label:nth-of-type(2)::after,.csslider>input:nth-of-type(3):checked~.navigation label:nth-of-type(3)::after,.csslider>input:nth-of-type(4):checked~.navigation label:nth-of-type(4)::after,.csslider>input:nth-of-type(5):checked~.navigation label:nth-of-type(5)::after,.csslider>input:nth-of-type(6):checked~.navigation label:nth-of-type(6)::after,.csslider>input:nth-of-type(7):checked~.navigation label:nth-of-type(7)::after,.csslider>input:nth-of-type(8):checked~.navigation label:nth-of-type(8)::after,.csslider>input:nth-of-type(9):checked~.navigation label:nth-of-type(9)::after{opacity:1}.csslider>.navigation label::after{background:0 0;border-radius:50%;content:"";left:50%;margin-left:-6px;margin-top:-6px;opacity:0;padding:6px;position:absolute;top:50%}.csslider>.arrows{-moz-user-select:none;box-sizing:content-box;height:26px;left:-31px;padding:0 31px;position:absolute;top:40%;width:100%;z-index:0}.csslider.inside .navigation{bottom:10px;margin-bottom:10px}.csslider.inside .navigation label{border:1px solid #7e7e7e}.csslider>.arrows label{box-shadow:2px -2px 0 1px #3a3a3a inset;cursor:pointer;display:none;padding:13px;position:absolute;top:-50%;transition:box-shadow .15s,margin .15s;z-index:9999}.csslider>.arrows label:hover{box-shadow:3px -3px 0 2px #0168b3 inset;margin:0}.csslider.infinity>input:first-of-type:checked~.arrows label.goto-last,.csslider>input:first-of-type:checked~.arrows>label:nth-of-type(0),.csslider>input:nth-of-type(10):checked~.arrows>label:nth-of-type(9),.csslider>input:nth-of-type(11):checked~.arrows>label:nth-of-type(10),.csslider>input:nth-of-type(2):checked~.arrows>label:first-of-type,.csslider>input:nth-of-type(3):checked~.arrows>label:nth-of-type(2),.csslider>input:nth-of-type(4):checked~.arrows>label:nth-of-type(3),.csslider>input:nth-of-type(5):checked~.arrows>label:nth-of-type(4),.csslider>input:nth-of-type(6):checked~.arrows>label:nth-of-type(5),.csslider>input:nth-of-type(7):checked~.arrows>label:nth-of-type(6),.csslider>input:nth-of-type(8):checked~.arrows>label:nth-of-type(7),.csslider>input:nth-of-type(9):checked~.arrows>label:nth-of-type(8){display:block;left:-27px;right:auto;transform:rotate(45deg)}.csslider.infinity>input:last-of-type:checked~.arrows label.goto-first,.csslider>input:first-of-type:checked~.arrows>label:nth-of-type(2),.csslider>input:nth-of-type(10):checked~.arrows>label:nth-of-type(11),.csslider>input:nth-of-type(11):checked~.arrows>label:nth-of-type(12),.csslider>input:nth-of-type(2):checked~.arrows>label:nth-of-type(3),.csslider>input:nth-of-type(3):checked~.arrows>label:nth-of-type(4),.csslider>input:nth-of-type(4):checked~.arrows>label:nth-of-type(5),.csslider>input:nth-of-type(5):checked~.arrows>label:nth-of-type(6),.csslider>input:nth-of-type(6):checked~.arrows>label:nth-of-type(7),.csslider>input:nth-of-type(7):checked~.arrows>label:nth-of-type(8),.csslider>input:nth-of-type(8):checked~.arrows>label:nth-of-type(9),.csslider>input:nth-of-type(9):checked~.arrows>label:nth-of-type(10){display:block;left:auto;right:-27px;transform:rotate(225deg)}.rt-container{margin:0 auto;width:76%}.csslider ul li img{height:auto;width:auto;max-height:100%}.navigation>label{border:1px solid #ddd;border-radius:5px!important;margin-bottom:5px}.mbs,.product-wraper{border:1px solid #d1d1d1}.mbs{margin-top:30px;height:500px}.mbs img{position:absolute;top:0;left:0;right:0;bottom:0;margin:auto;padding:5px}.des-title{text-align:left}.des-title>h2{font-size:20px;margin:0}.product-wraper{padding:20px}.product-dec h3{color:#004177;font-size:22px;margin:10px 0;font-weight:700}.product-dec h4{font-weight:700;color:#343434;font-size:24px;margin:20px 0}.copy-right p a,.product-dec p,.product-dec ul li{font-family:'Open Sans',sans-serif}.product-dec p{font-size:14px}.product-dec ul{margin-bottom:15px}.product-dec ul li{list-style:none;padding:5px 20px;font-size:14px}.product-dec ul li::before{position:absolute;content:"\f00c";font-family:fontawesome;left:0;color:#004177}.main-footer{margin-top:30px}.copy-right p a{color:#fff;font-size:14px;font-weight:700;text-decoration:underline}.copy-right p{padding:0;margin:0;color:#fff;font-size:14px}@media (min-width:992px) and (max-width:1200px){.service-right,.why-us h3{font-size:11px}.product-img img{height:450px}.logo{padding:10px 0}}@media only screen and (min-width:768px) and (max-width:991px){.header-top{display:none}}@media only screen and (max-width:767px){#navbar,.header-top{display:none}#navbar,#navbar ul li{width:100%;float:left}#navbar,.mbs{height:auto}.csslider>.navigation label{width:50px;height:50px}#menu-switcher:checked+#navbar,.menu-container label,.navbar-header>label,.switch{display:block}#navbar{position:absolute;top:70px;z-index:999;left:0;background-color:#000}.menu-container{padding:5px 0}#navbar ul{width:100%!important;margin:0;overflow:hidden;padding:10px 0;display:inline-block}#navbar ul li{margin:0!important;text-align:left}#navbar ul li a{color:#fff;padding:10px 35px;display:block;font-size:14px}.mbs img{position:inherit}.header-wraper{margin:20px 0 0}.pro-title{padding:10px 20px}.pro-title>h2,.product-dec h3,.product-dec h4,.single-care h3{font-size:18px}}
+</style>
+
+</head>
+
+<body>
+<div class="main-div">
+<!-- ======= header area start ======= -->
+<header class="header-area">
+<div class="header-top">
+<div class="support-box">
+<div class="container xp">
+<div class="row">
+<div class="col-md-12">
+<div class="why-us">
+<h3>why shop with us <i class="fa fa-chevron-right" aria-hidden="true"></i></h3>
+</div>
+<!-- service start -->
+<div class="service-box">
+<ul>
+<li>
+<div class="service-left"><i class="fa fa-thumbs-up" aria-hidden="true"></i></div>
+<div class="service-right">quality Products</div>
+</li>
+<li>
+<div class="service-left"><i class="fa fa-truck" aria-hidden="true"></i></div>
+<div class="service-right">fast and safe Shipping</div>
+</li>
+<li>
+<div class="service-left"><i class="fa fa-usd" aria-hidden="true"></i></div>
+<div class="service-right">return Guarantee</div>
+</li>
+<li>
+<div class="service-left"><i class="fa fa-envelope" aria-hidden="true"></i></div>
+<div class="service-right">customer service</div>
+</li>
+</ul>
+</div>
+<!-- service end -->
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="header-wraper">
+<div class="container">
+<div class="row">
+<!-- header wraper start -->
+<div class="col-md-12">
+<!-- logo start -->
+<div class="logo text-center">
+<a href="https://www.ebay.com/str/jimmydealsllc" target="_blank"><img src="https://milton2995.github.io/jimmydealsllc/logo.png" alt=""></a>
+</div>
+<!-- logo end -->
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-12">
+<div class="menu-container">
+<div class="container">
+<div class="switch">
+<label for="menu-switcher"></label>
+</div>
+<input id="menu-switcher" class="menu-switcher" type="checkbox">
+<div id="navbar">
+<ul>
+<li><a href="https://www.ebay.com/str/jimmydealsllc" target="_blank"><i class="fa fa-home" aria-hidden="true"></i> Store shop</a></li>
+<li><a href="https://www.ebay.com/str/jimmydealsllc#tab1" target="_blank">about us</a></li>
+<li><a href="https://www.ebay.com/fdbk/feedback_profile/jimmydealsllc?filter=feedback_page%3ARECEIVED_AS_SELLER" target="_blank">feedback</a></li>
+<li><a href="https://www.ebay.com/cnt/intermediatedFAQ?requested=jimmydealsllc" target="_blank">contact us</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- header wraper end -->
+</header>
+<!-- ======= header area end ======= -->
+<!-- ======= product title area start ======= -->
+<section class="gallery-area">
+<div class="container">
+<div class="row">
+<div class="col-md-12">
+<div class="pro-title mb">
+<h2>
+
+<!-- product title start -->
+
+Sony WH-CH720N Wireless Over-Ear Headphones - Blue
+
+<!-- product title end -->
+
+</h2>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- ======= product title area end ======= -->
+<!-- ======= product area start ======= -->
+<section class="product-area">
+<div class="container">
+<div class="row">
+<div class="col-md-12">
+<!-- product wraper star -->
+<div class="product-wraper">
+<div class="col-md-6">
+<!-- images gallery part start -->
+<div class="gallery-content">
+<div class="csslider infinity" id="slider1">
+<input name="slides" checked="checked" id="slides_1" type="radio">
+<input name="slides" id="slides_2" type="radio">
+<input name="slides" id="slides_3" type="radio">
+<input name="slides" id="slides_4" type="radio">
+<input name="slides" id="slides_5" type="radio">
+<input name="slides" id="slides_6" type="radio">
+<input name="slides" id="slides_7" type="radio">
+<input name="slides" id="slides_8" type="radio">
+<input name="slides" id="slides_9" type="radio">
+<input name="slides" id="slides_10" type="radio">
+
+<ul>
+
+<li>
+<!-- big gallery images 1 -->
+<img src="https://i.ebayimg.com/images/g/k88AAOSw~iVlMFmj/s-l1600.jpg" alt="">
+</li>
+
+<li>
+<!-- big gallery images 2 -->
+<img src="https://i.ebayimg.com/images/g/5ecAAOSwA-NlMFms/s-l1600.jpg" alt="">
+</li>
+
+<li>
+<!-- big gallery images 3 -->
+<img src="https://i.ebayimg.com/images/g/XFAAAOSwNpNlMFmz/s-l1600.jpg" alt="">
+</li>
+
+<li>
+<!-- big gallery images 4 -->
+<img src="https://i.ebayimg.com/images/g/1h0AAOSwF0RlMFm7/s-l1600.jpg" alt="">
+</li>
+
+<li>
+<!-- big gallery images 5 -->
+<img src="https://i.ebayimg.com/images/g/14wAAOSwtBxlMFnD/s-l1600.jpg" alt="">
+</li>
+
+</ul>
+
+<div class="navigation">
+
+<label for="slides_1">
+<!-- small gallery images 1 -->
+<img src="https://i.ebayimg.com/images/g/k88AAOSw~iVlMFmj/s-l1600.jpg" alt="">
+</label>
+
+<label for="slides_2">
+<!-- small gallery images 2 -->
+<img src="https://i.ebayimg.com/images/g/5ecAAOSwA-NlMFms/s-l1600.jpg" alt="">
+</label>
+
+<label for="slides_3">
+<!-- small gallery images 3 -->
+<img src="https://i.ebayimg.com/images/g/XFAAAOSwNpNlMFmz/s-l1600.jpg" alt="">
+</label>
+
+<label for="slides_4">
+<!-- small gallery images 4 -->
+<img src="https://i.ebayimg.com/images/g/1h0AAOSwF0RlMFm7/s-l1600.jpg" alt="">
+</label>
+
+<label for="slides_5">
+<!-- small gallery images 5 -->
+<img src="https://i.ebayimg.com/images/g/14wAAOSwtBxlMFnD/s-l1600.jpg" alt="">
+</label>
+
+</div>
+</div>
+</div>
+<!-- images gallery part end -->
+</div>
+<div class="col-md-6 ex">
+<div class="product-dec">
+
+<!-- product discription part start -->
+
+<h3>Product Details:</h3>
+
+<ul>
+<li>    Sony’s lightest Wireless Noise-canceling headband ever.</li>
+
+<li>    Take noise canceling to the next level with Sony’s Integrated Processor V1, so you can fully immerse yourself in the music.</li>
+
+<li>    Super comfortable and lightweight design.</li>
+
+<li>    Adjustable Ambient Sound mode and Adaptive Sound control features tailors sound to suit the environment around you.</li>
+
+<li>    Up to 35-hour battery life with quick charging (3 min charge for up to 1 hour of playback).1</li>
+
+<li>    High sound quality and well-balanced sound tuning.</li>
+
+<li>    Crystal clear hands-free calling and voice assistant with Precise Voice Pickup technology.2</li>
+
+<li>Multipoint connection allows you to quickly switch between two devices at once.3</li>
+
+<li>Boost the quality of compressed music files and enjoy streaming music with high quality sound through DSEE™.</li>
+
+<li>Build-in microphone</li>
+</ul>
+<!-- product discription part end -->
+
+</div>
+</div>
+</div>
+<!-- product wraper end -->
+</div>
+</div>
+</div>
+</section>
+<!-- ======= product area end ======= -->
+
+<!-- ======= about info start ======= -->
+<section class="gallery-area">
+<div class="container">
+<div class="row">
+<div class="col-md-12">
+<div class="pro-title mb">
+<h2>WHO WE ARE</h2>
+</div>
+<div class="product-dec">
+<p>Welcome to Jimmy Deals, your premier destination for cutting-edge electronics! At Jimmy Deals, we're more than just an online store; we're your one-stop shop for all things tech. Our mission is to make high-quality electronics accessible to everyone, offering competitive prices without compromising on quality.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- ======= about info end ======= -->
+
+<!-- ======= shipping info start ======= -->
+<section class="gallery-area">
+<div class="container">
+<div class="row">
+<div class="col-md-12">
+<div class="pro-title mb">
+</div>
+<div class="product-dec">
+<h3>Shipping:</h3>
+<p>We are always trying to guarantee that your package arrives as quickly as possible. Please keep in mind that some conditions, such as weather, excessive postal traffic, and shipping company performance, are beyond our control.</p>
+<p>Domestic purchases are normally shipped within 3 business days of receipt of payment (excluding holidays). P.O. Boxes are not accepted. Please provide a physical address in your message.International purchases are normally shipped within 3 business days of receipt of payment (excluding holidays).We will offer you with a tracking number so that you can make an informed decision.</p>
+<p>Please contact us to calculate shipping rates for countries that do not list shipping alternatives.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- ======= shipping info end ======= -->
+
+<!-- ======= Return info start ======= -->
+<section class="gallery-area">
+<div class="container">
+<div class="row">
+<div class="col-md-12">
+<div class="pro-title mb">
+<h2>Return Policy</h2>
+</div>
+<div class="product-dec">
+<ul>
+<li>If you are unhappy with your purchase, you have the option to return it for a full refund.</li>
+<li>Within three days of receiving the goods, you must notify us of the problem.</li>
+<li>Before returning the item, please contact us for a return mailing address. Do these steps before opening a case on ebay.</li>
+<li>All things must be returned in their original condition, without being broken or changed. You must also provide us with your shipping tracking information, and we will provide a refund within three business days of receiving the returned item.</li>
+<li>The buyer is responsible for the cost of return shipping.</li>
+</ul>
+<img src="return.jpg" alt="" width="300px">
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- ======= Return info end ======= -->
+
+<!-- ======= Payment info start ======= -->
+<section class="gallery-area">
+<div class="container">
+<div class="row">
+<div class="col-md-12">
+<div class="pro-title mb">
+<h2>Payment Method</h2>
+</div>
+<div class="product-dec">
+<ul>
+<li><b>Kindly Ensure that your address on eBay is matched with your shipping address before you pay.</b></li>
+</ul>
+<p>Import duties, value added taxes and any other charges are NOT included in the item price or shipping costs unless otherwise stated.</p>
+<p>You are responsible for any reasonable tax or any other importation fees.</p>
+<p><b>WE ACCEPT ALL PAYMENTS MANAGED BY EBAY</b></p>
+<br>
+<img src="https://i.ibb.co/YXSB0kq/paypal.jpg" alt="" width="200px">
+<br>
+<img src="https://i.ibb.co/WgHVQrv/WE-ACCEPT.png" alt="" width="400px">
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- ======= Payment info end ======= -->
+
+<!-- ======= Contact info start ======= -->
+<section class="gallery-area">
+<div class="container">
+<div class="row">
+<div class="col-md-12">
+<div class="pro-title mb">
+<h2>Contact Us</h2>
+</div>
+<div class="product-dec">
+<h3>Contact:</h3>
+<p>Please feel free to contact us to discuss anything that you may have a question about.</p>
+<p>Contact us via the eBay messaging system <a href="https://www.ebay.com/cnt/intermediatedFAQ?requested=jimmydealsllc" target="_blank" style="text-decoration: underline">here</a></p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- ======= Contact info end ======= -->
+
+<!-- ======= footer area star ======= -->
+<footer class="main-footer">
+<div class="container">
+<div class="row">
+<div class="col-md-12">
+<div class="copy-right text-center">
+<p>© Copyright All Rights Reserved - <a href="https://www.ebay.com/str/jimmydealsllc" target="_blank">Jimmy Deals LLC</a></p>
+</div>
+</div>
+</div>
+</div>
+</footer>
+<!-- ======= footer area end ======= -->
+</div>
+</body>
+
+</html>
